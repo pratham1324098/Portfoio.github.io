@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pratham Kumar</title>
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- FAVICON -->
+  <link class="favicon" rel="icon" type="image/img" sizes="32x32" href="images/favicon-32x32.png">
+
+  <!-- Google material icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+   <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+   <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/{{YOUR KIT KEY}}.js" crossorigin="anonymous"></script>
+
+   <!-- TYPE JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+    integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- jQUERY -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+   <!-- SWEET ALERT -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+   <!-- EMAIL JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("{{YOUR USER KEY}}");
+    })();
+  </script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+      <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+      </div> 
+      <div class="max-width">
+        <div class="logo">
+          <a href="#">{PK}<span> Pratham Kumar</span></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#home" class="menu-btn">Home</a></li>
+          <li><a href="#about" class="menu-btn">About</a></li>
+          <li><a href="#services" class="menu-btn">Services</a></li>
+          <li><a href="#skills" class="menu-btn">Skills</a></li>
+          <li><a href="#contact" class="menu-btn">Contact</a></li>
+        </ul>
+        <div class="menu-btn">
+          <i class="material-icons">menu</i>
+        </div>
+      </div>
+    </nav>
+  <!-- Scroll to top button -->
+    <button id="btnScrollToTop">
+      <i class="material-icons">arrow_upward</i>
+    </button>
+    
+  <!-- home section start-->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1" data-aos="fade-up">Hello, my name is</div>
+        <div class="text-2">Pratham Kumar</div>
+        <div class="text-3">I  <span class="typing"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down" >About Me</h2>
+      <div class="about-content">
+        <div class="column left" data-aos="fade-right" >
+          <img src="./pk.png" alt="">
+        </div>
+        <div class="column right" data-aos="fade-up">
+          <div class="text">
+            I'm Pratham Kumar and I  <span class="typing-2"></span>
+          </div>
+          <p class="paragraph">
+            I'm Pratham Kumar,and currently I am pusuing my B.Tech from Galgotias College of Engineering and Technology. My world revolves around coding and crafting digital solutions. Proficient in C++, Python, SQL, HTML, CSS, and JavaScript, I love turning ideas into reality. I specialize in creating captivating web experiences and I'm well-versed in the art of React.js for dynamic user interfaces. A problem solver and team player, I'm dedicated to constant growth and innovation. Explore my projects and join me on this exciting coding expedition!</p>
+          <a href="./CV_PRATHAM_KUMAR.pdf" target="_blank">Download
+            Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">My Services</h2>
+      <div class="serv-content">
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-laptop-code"></i>
+            <div class="text">CPP <B>DSA</B></div>
+            <p>
+              I have good knowledge of CPP and DSA.
+              <br>
+              <b>Leetcode Profile - <a target="_blank" href="https://leetcode.com/Pratham882/">Click Here</a></b>
+              <br>
+              <b>GFG Profile - <a target="_blank" href="https://auth.geeksforgeeks.org/user/prathamkumar882/practice">Click Here</a></b>
+              <br>
+              <b>HackerRank Profile - <a target="_blank" href="https://www.hackerrank.com/prathamkumar882">Click Here</a></b>
+              <br>
+              <b>CodingNinja Profile - <a target="_blank" href="https://www.codingninjas.com/studio/profile/f4070b5e-987e-46e1-bbef-be51eb08c9ae">Click Here</a></b>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-code"></i>
+            <div class="text">Front End Development</div>
+            <p>
+              Here are my Projects -->
+              <br>
+              
+                Amazon Clone - 
+                <a target="_blank" href="https://64b2e90bc64854352b359781--cozy-gelato-2177a9.netlify.app/">Visit Here</a>
+                <br>
+                SomoChat - 
+                <a target="_blank" href="https://chatting-app-6b35b.web.app/login">Visit Here</a>
+                <br>
+                Portfolio Website
+                <br>
+                <br>
+                <br>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" data-aos="flip-left">
+          <div class="box">
+            <i class="fas fa-mobile-alt"></i>
+            <div class="text">SQL</div>
+            <p>
+               With my proficiency in SQL, I can design and implement complex database structures, craft intricate queries, and ensure seamless data integrity, making me an invaluable asset in handling data-driven projects and applications.            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills section services -->
+  <section class="skills" id="skills">
+    <div class="max-width" data-aos="fade-down">
+      <h2 class="title" data-aos="fade-up">My Skills</h2>
+      <div class="skills-content">
+        <div class="column left">
+          <div class="text">
+            My skills 
+          </div>
+          <p class="paragraph-2">
+            I possess a versatile skillset, including expertise in C++, Data Structures & Algorithms, and problem-solving. Additionally, I am adept at crafting captivating web experiences using HTML, CSS, JavaScript, and React.js. My proficiency extends to SQL, enabling effective data management and manipulation. This diverse range of skills equips me to excel in software development, web design, and creative problem-solving endeavors.          </p>
+          <a href="#about">Read More</a>
+        </div>
+        <div class="column right skill-box">
+          <div class="icons">
+            <img src="images\skill-icons\icons8-css3.svg" alt="css" id="css-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-javascript.svg" alt="js" id="js-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-react-native.svg" alt="react" id="react-icon" data-aos="flip-left">
+            <img class="image1" src="data:image/png;base64,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" alt="SQL"id="react-icon" data-aos="flip-left">
+          </div>
+          <div class="icons">
+            <img src="images\skill-icons\icons8-html-5.svg" alt="html", id="html-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-visual-studio-code-2019.svg" alt="vscode" id="vscode-icon" data-aos="flip-left">
+            <img src="images\skill-icons\icons8-c++.svg" alt="c++" id="cpp-icon" data-aos="flip-left">
+      </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="max-width">
+      <h2 class="title" data-aos="fade-down">Contact Me</h2>
+      <div class="contact-content">
+        <div class="column left" data-aos="flip-left">
+          <div class="text">Let's Get in Touch</div>
+          <p class="paragraph-3">
+            Feel free to reach out to me for any inquiries, collaborations, or opportunities. You can contact me through the following channels:          </p>
+          <div class="icons">
+            <div class="row">
+              <i class="fas fa-user"></i>
+              <div class="info">
+                <div class="head">Name</div>
+                <div class="sub-title">Pratham Kumar</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="info">
+                <div class="head">Address</div>
+                <div class="sub-title">Knowledge Park-I ,Greater Noida</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Email</div>
+                <div class="sub-title">prathamkumar882@gmail.com</div>
+              </div>
+              
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Phone Number</div>
+                <div class="sub-title">+918077828726</div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">Linked In</div>
+                <div class="sub-title">
+                  <a href="https://www.linkedin.com/in/pratham-kumar-148152212/" target="_blank">                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAB+CAMAAADV/VW6AAAAY1BMVEUCdLP///8AbrCFrdCPtNMAcbKaudfb5/EAZq1BiL3G2+rF2OgAbK8Aaa7k7vXe6vO0zOEjerZalMOrx94AYart9fmlwdv2+vy80eRQkcJ5p85roMo1g7rO3+3T5O9VjsA7f7lDMzMiAAADEUlEQVRoge3b25KjIBAAUMAQNQGvUTPRXP7/K9fLZJPQrUlN0TK1Sz/Mi9ScgAoNAuNjJMftZsXYHpPJZcOftJBKiRVDKVmkd74Ugq0eQpQTX0br40NE5cBflBudMXXp+Vi64mXMWejgvt9DhCxz1vZ962ds65LfssBl4wee97znjZBCCdoOeZ4Xin2dgrZTlL3SHC8P7XlKR6pa0v2AGV7dLvwRgV6XV9eKP0dJVX+Ul92rznlNlA+h/CHlZhQ0byfGqwDoPKFpfpSHlee8Jak+wssc0fmepPoIL04Yn1LoGK+2GF/dVuJ1ifHNjaL3/321Fy3GhxQ63u1gPM1sAH3vdwhPMxPDePkFdaJpKNr40RHwHU3Wgw+40ux2qUb8GT6/vOpU6w8z2Y7UTy//JV452+lDsTrsk44m2ReaLtudz3Sllrc47nJFOQ1YzvP7ILTf8fTheQL+04fGOj+sDUuW57kcF25/xEcgnsto8+LfXknqqKh333OUvsuoWx0t/gJ8lnPeGXE+PQrJ0rya5dOFKC4bc6w6tksdB87DAfdp8Q+MRzwZeXXLkDyhv9rOd5s/4UOU1ydzYvhogXzOt8ZHaH58L9DN3ABLvDycF/T+MZxJVyzxGuZHr1FR8nLzRu/niGjOYIVPr2/1mSmyFb7CZuRmJFjzW+E/ixOSq6/Ih2755gqbf0Web2D11+TTg1O+yWn5sC7irvsK9mDYnaIAN98iHxZKiyE3VzrGRwAo2eNr/ZSRROjQD5eGrfHGV3CN1X8HZqq2+Mp4qmWMFErAo2+LP5n/RO1hoYaKr8BdVdjaKFXjI/sfsJVhqie/hd25SmAxkHLa4Rtk2Q1bniPiE9idMoW8+iDhtMOnyFCukMybiA+RlS9sZRrcIzv8+b/m9573vOc973nPe97znve85z3vec9b+YppeYY77pp4jeWr+FeyD4r9m9sHPO95z/9u3vGRMMcH4lKXjZ8yqpMHn+gFZzx1dhZTpMNB2IxsK+hy6Gw6BpxJF8eA5fC5ZdwQnrg4BD1+6vrej+7qCPgfqkxAf1bZ+3YAAAAASUVORK5CYII=" width="40px" height="40px" alt="">
+                  Click on logo
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <i class="fas fa-envelope"></i>
+              <div class="info">
+                <div class="head">GITHUB</div>
+                <div class="sub-title">
+                  <a href="https://github.com/pratham1324098" target="_blank">               <img src="data:image/png;base64,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" height="40px" width="40px">
+                    Click on logo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+          
+      </div>
+    </div>
+  </section>
+  <!-- footer section start -->
+  <footer>
+    <div class="text-center">
+      <span>
+        Created By <a href="#">Pratham Kumar</a> | <span class="far fa-copyright"> </span> <script>document.write(new Date().getFullYear())</script> All rights reserved.
+        
+      </span>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function() {myFunction()};
+    
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init({easing : 'ease-in',delay: 100,duration: 300,offset:100});window.addEventListener('load', AOS.refresh);</script>
+</body>
+
+</html>
